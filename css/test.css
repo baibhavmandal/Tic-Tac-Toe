@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#a {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 50px;
+    padding: 5px 10px;
+    box-shadow: 0 4px 4px 0 rgba(128, 128, 128, 0.2), 0 6px 8px 0 rgba(128, 128, 128, 0.1);
+}
+
+#a h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    font-family: 'Urbanist', sans-serif;
+    color: black;
+}
+
+#b {
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ba {
+    width: 300px;
+    height: 350px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    padding: 12px;
+    box-shadow: 0 4px 4px 0 rgba(128, 128, 128, 0.2), 0 6px 8px 0 rgba(128, 128, 128, 0.1);
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#ba h5 {
+    margin: 15px auto;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.bx {
+    display: flex;
+}
+
+.bx input {
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    background-image: linear-gradient(180deg, rgba(222, 226, 230, 0.5), rgba(222, 226, 230, 0.4));
+    color: black;
+}
+
+#ba :nth-child(2) {
+    flex-direction: column;
+}
+
+#ba :nth-child(2) input {
+    width: 280px;
+    height: 40px;
+    margin: 5px 0px;
+    padding: 0 0 2px 10px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#ba :nth-child(4) {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bxb {
+    cursor: pointer;
+}
+
+#bxc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 5px auto;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 5px;
+    background-image: linear-gradient(180deg, rgba(222, 226, 230, 0.5), rgba(222, 226, 230, 0.4));
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#baab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    width: 70px;
+    height: 35px;
+    margin: 10px 0 0 0;
+    border: 1px solid rgba(128, 128, 128, 0.1);
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: 0 2px 2px 0 rgba(128, 128, 128, 0.2), 0 4px 4px 0 rgba(128, 128, 128, 0.1);
+    color: white;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+

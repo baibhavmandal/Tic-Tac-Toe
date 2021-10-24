@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(180deg, rgba(222, 226, 230, 0.3), rgba(222, 226, 230, 0.2));
+    overflow: hidden;
+}
+
+#a {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 50px;
+    padding: 5px 10px;
+    box-shadow: 0 4px 4px 0 rgba(128, 128, 128, 0.2), 0 6px 8px 0 rgba(128, 128, 128, 0.1);
+}
+
+#a h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    font-family: 'Urbanist', sans-serif;
+    color: black;
+}
+
+#b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 750px; 
+    padding: 20px;
+    background-image: linear-gradient(180deg, rgba(222, 226, 230, 0.5), rgba(222, 226, 230, 0.4));
+}
+
+#ba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    margin: 0 0 10px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(128, 128, 128, 0.2), 0 6px 8px 0 rgba(128, 128, 128, 0.1);
+}
+
+#ba h2 {
+    font-family: 'Urbanist', sans-serif;
+}
+
+#bb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 50px;
+    margin: 0 0 40px 0;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(128, 128, 128, 0.2), 0 6px 8px 0 rgba(128, 128, 128, 0.1);
+}
+
+#bb h3 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#bb h2 {
+    font-family: 'Urbanist', sans-serif;   
+}
+
+.buttonI {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 100px;
+}
+
+.buttonJ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0 4px 4px 0 rgba(128, 128, 128, 0.2), 0 6px 8px 0 rgba(128, 128, 128, 0.1);
+    background-color: white;
+    transform: rotateY(180deg);
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#bc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    margin: 30px 0 10px 0;
+}
+
+#bca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(128, 128, 128, 0.2), 0 6px 8px 0 rgba(128, 128, 128, 0.1);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#bcb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 50px;
+    margin: 0 0 10px 0;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(128, 128, 128, 0.2), 0 6px 8px 0 rgba(128, 128, 128, 0.1);
+    font-family: 'Urbanist', sans-serif;  
+}
+
+#bd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 120px;
+    margin: 20px 0 10px 0;
+}
+
+.bda {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 270px;
+    height: 50px;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(128, 128, 128, 0.2), 0 6px 8px 0 rgba(128, 128, 128, 0.1);
+}
+
+.bdaa {
+    width: 200px;
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bdab {
+    width: 50px;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Urbanist', sans-serif;  
+}
+
+#c {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7));
+}
+
+#ca {
+    margin: 0 0 20px 0;
+    color: black;
+    font-size: 2.5em;
+}
+
+#ca :nth-child(1) {
+    font-family: 'Urbanist', sans-seri;
+}
+
+#ca :nth-child(2) {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#ca :nth-child(3) {
+    font-family: 'Quicksand', sans-serif
+}
+
+#ca :nth-child(4) {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#cb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    margin: 0 0 10px 0;
+    box-shadow: 0 4px 4px 0 rgba(128, 128, 128, 0.2), 0 6px 8px 0 rgba(128, 128, 128, 0.1);
+}
+
+#cb button {
+    width: 300px ;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+}
+
+#cb h2 {
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+}
+
+#d {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7));
+}
+
+#da {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(128, 128, 128, 0.4), 0 6px 8px 2px rgba(128, 128, 128, 0.3);
+}
+
+#daa {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    color: black;
+}
+
+#daa h2 {
+    margin: 5px 0 0 0;
+    font-family: 'Urbanist', sans-serif;
+}
+
+#dab {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+}
+
+.daba {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 35px;
+    border: 1px solid rgba(128, 128, 128, 0.1);
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: 0 2px 2px 0 rgba(128, 128, 128, 0.2), 0 4px 4px 0 rgba(128, 128, 128, 0.1);
+    color: white;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (max-width: 1440px) {
+     body {
+         overflow-x: hidden;
+         overflow-y: visible;
+     }
+
+     #b {
+         height: 650px;
+         padding: 10px 0;
+     }
+
+     #ba {
+         margin: 0 0 5 0;
+     }
+
+     #bb {
+         margin: 0 0 10px 0;
+     }
+
+     #bc {
+         margin: 10px 0 10px 0;
+     }
+
+     #bd {
+         margin: 0 0 10px 0;
+     }
+
+     #ca {
+         font-size: 1.5em;
+     }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 0;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4));
+    border-radius: 10px;
+  }
+
+
+
